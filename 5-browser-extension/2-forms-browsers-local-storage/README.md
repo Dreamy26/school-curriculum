@@ -66,8 +66,9 @@ function init() {
 		loading.style.display = 'none';
 		clearBtn.style.display = 'none';
 		errors.textContent = '';
-	} else {
-        //if we have saved keys/regions in localStorage, show results when they load
+	} else {// if we have saved keys/regions in localStorage
+       
+       // show results when they load
         displayCarbonUsage(storedApiKey, storedRegion);
 		results.style.display = 'none';
 		form.style.display = 'none';
